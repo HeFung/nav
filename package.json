@@ -1,0 +1,25 @@
+{
+  "name": "nav",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "deploy": "bash deploy.sh",
+    "master": "bash master.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.66.1",
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "@mdit-vue/shared": "^2.1.3",
+    "vitepress-plugin-back-to-top": "^1.0.1"
+  }
+}

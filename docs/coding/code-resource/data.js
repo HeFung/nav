@@ -1,0 +1,77 @@
+export const NAV_DATA = [
+    {
+        title: '源码资源',
+        items: [
+            {
+                icon: '/icons/java1234.ico',
+                title: 'Java知识分享网',
+                desc: '免费Java资源下载。',
+                link: 'http://www.java1234.com/',
+                badge: 'Java',
+            },
+            {
+                icon: '/icons/codepen.png',
+                title: 'CodePen',
+                desc: '可以在线编辑代码，以及大家的作品集展示。',
+                link: 'https://codepen.io/',
+                badge: '官网',
+            },
+            {
+                icon: '/icons/30secondsofcode.png',
+                title: '30秒代码',
+                desc: '发现数百个编码文章，提高你的技能。',
+                link: 'https://www.30secondsofcode.org/',
+                badge: '官网',
+            },
+            {
+                icon: '/icons/itmk8.png',
+                title: 'IT慕课网',
+                desc: '全网最新最全的it资源站-程序员的福音。',
+                link: 'http://www.itmk8.com/',
+                badge: '官网',
+            },
+            {
+                icon: '/icons/dmzshequ.png',
+                title: 'IT学习网',
+                desc: '一个最新前沿实用的IT技术学习网站-专注于IT学习资源分享的社区。',
+                link: 'https://www.dmzshequ.com/',
+                badge: '官网',
+            },
+            {
+                icon: '/icons/jquery.png',
+                title: 'jQuery之家',
+                desc: 'html5，css3，js, vue的各种插件都有。',
+                link: 'http://www.htmleaf.com/',
+                badge: '官网',
+            },
+            {
+                icon: '/icons/jquery.png',
+                title: 'jQuery插件库',
+                desc: 'jQuery插件库常用前端库。',
+                link: 'https://www.jq22.com/',
+                badge: '官网',
+            },
+            {
+                icon: '/icons/uiverse.png',
+                title: 'UIverse',
+                desc: '有非常多好看且带有各种动画交互特效的组件。',
+                link: 'https://uiverse.io/',
+                badge: '官网',
+            },
+            {
+                icon: '/icons/navnav.png',
+                title: 'NavNav+',
+                desc: '一个收集 Web 交互性UI组件模板网站。',
+                link: 'https://thuvien.org/navnav/',
+                badge: '官网',
+            },
+            {
+                icon: '/icons/50projects50days.png',
+                title: '50projects50days',
+                desc: '分享50个前端纯原生案例。',
+                link: 'https://github.com/bradtraversy/50projects50days',
+                badge: '官网',
+            },
+        ],
+    },
+];

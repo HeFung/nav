@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="50px" viewBox="0 0 210 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <title>Logo-M</title>
+    <g id="Logo-M" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="210" height="50"></rect>
+        <polygon id="路径备份" fill="#333333" points="85 21 97 21 97 25 89 25 89 37 97 37 97 41 85 41"></polygon>
+        <path d="M113,21 L113,41 L101,41 L101,21 L113,21 Z M109,25 L105,25 L105,37 L109,37 L109,25 Z" id="矩形备份-3" fill="#333333" fill-rule="nonzero"></path>
+        <polygon id="路径-2备份" fill="#333333" points="117 21 125 21 125 25 121 25 121 37 125 37 125 41 117 41"></polygon>
+        <polygon id="矩形备份-2" fill="#333333" points="125 25 129 25 129 37 125 37"></polygon>
+        <polygon id="路径-3备份-3" fill="#333333" points="133 21 145 21 145 25 137 25 137 29 145 29 145 33 137 33 137 37 145 37 145 41 133 41"></polygon>
+        <polygon id="路径-3备份-2" fill="#333333" points="157 21 169 21 169 25 161 25 161 29 165 29 165 33 161 33 161 41 157 41"></polygon>
+        <rect id="矩形备份" fill="#333333" x="149" y="37" width="4" height="4"></rect>
+        <polygon id="路径-4备份-3" fill="#333333" points="173 21 173 41 185 41 185 21 181 21 181 37 177 37 177 21"></polygon>
+        <polygon id="路径-4备份-2" fill="#333333" transform="translate(195.000000, 31.000000) scale(1, -1) translate(-195.000000, -31.000000) " points="189 21 189 41 201 41 201 21 197 21 197 37 193 37 193 21"></polygon>
+        <polygon id="tail5" fill="#0062FF" points="30.5 17 34 13.5 30.5 10 27 13.5"></polygon>
+        <polygon id="tail4" fill="#00C5FF" points="27 20.5 30.5 17 27 13.5 23.5 17"></polygon>
+        <polygon id="tail3" fill="#0062FF" points="20 27.5 23.5 24 20 20.5 16.5 24"></polygon>
+        <polygon id="tail6" fill="#0062FF" points="20 20.5 23.5 17 20 13.5 16.5 17"></polygon>
+        <polygon id="tail9" fill="#E8CE2F" points="20 13.5 23.5 10 20 6.5 16.5 10"></polygon>
+        <polygon id="tail8" fill="#00C5FF" points="13 20.5 16.5 17 13 13.5 9.5 17"></polygon>
+        <polygon id="tail10" fill="#E8CE2F" points="9.5 10 13 6.5 9.5 3 6 6.5"></polygon>
+        <polygon id="tail7" fill="#00C5FF" points="27 13.5 30.5 10 27 6.5 23.5 10"></polygon>
+        <polygon id="head1" fill="#0058E6" points="45 24.5 59.2913565 17.5165634 71 18.5 75.5 23 59.5022397 38.9983652"></polygon>
+        <path d="M20,27.5 L34,41.5 C41,48.5 50,48.5 57,41.5 C61.6666667,36.8333333 65.3344478,33.1666667 68.0033433,30.5 C63,35.5 56,35.5 51,30.5 L34,13.5 L20,27.5 Z" id="body" fill="#00C5FF"></path>
+        <path d="M49.0776017,22.4919291 L59.2913565,17.5165634 C61.4971188,16.4388545 63.4,15.9 65,15.9 C67.8,15.9 69.90347,17.4 71,18.5 L75.5,23 L69,29.5 C66,32.5 59.2913565,32.477521 55.6643878,28.9770082 L49.0776017,22.4919291 Z" id="head2" fill="#0062FF"></path>
+        <polygon id="tail0" fill="#E8CE2F" points="27 27.5 30.5 24 27 20.5 23.5 24"></polygon>
+        <polygon id="tail01" fill="#0062FF" points="30.5 24 34 20.5 30.5 17 27 20.5"></polygon>
+        <circle id="eye" fill="#FFFFFF" cx="65" cy="20" r="1.9"></circle>
+    </g>
+</svg>
