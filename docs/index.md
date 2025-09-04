@@ -57,22 +57,3 @@ import { FRIEND_DATA } from './home/friend-data';
   <MNavLinks  v-for="{ title, items } in FRIEND_DATA" :title="title" :items="items" />
 </ClientOnly>
 
-<!-- 样式 -->
-<style>
-/*爱的魔力转圈圈*/
-/* hero-image */
-.VPHome .image-src:hover {
-  transform: translate(-50%, -50%) rotate(666turn);
-  transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
-}
-/* features的样式 */
-.VPHome .details small {
-  opacity: 0.8;
-}
-/* features的样式 */
-.VPHome .bottom-small {
-  display: block;
-  margin-top: 2em;
-  text-align: right;
-}
-</style>
