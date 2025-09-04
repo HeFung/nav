@@ -1,29 +1,43 @@
-/* :root {
-  --vp-layout-max-width: 1660px;
-} */
+:root:where(:lang(fa)) {
+  --vp-font-family-base:
+    'Vazirmatn', 'Inter', ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
 
 :root {
-  --vp-badge-info-border: transparent;
-  --vp-badge-info-text: var(--vp-c-text-2);
-  --vp-badge-info-bg: var(--vp-c-default-soft);
-
-  --vp-badge-tip-border: transparent;
-  --vp-badge-tip-text: var(--vp-c-brand-1);
-  --vp-badge-tip-bg: var(--vp-c-brand-soft);
-
-  --vp-badge-warning-border: transparent;
-  --vp-badge-warning-text: var(--vp-c-warning-1);
-  --vp-badge-warning-bg: var(--vp-c-warning-soft);
-
-  --vp-badge-danger-border: transparent;
-  --vp-badge-danger-text: var(--vp-c-danger-1);
-  --vp-badge-danger-bg: var(--vp-c-danger-soft);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #bd34fe 30%,
+    #41d1ff
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #bd34fe 50%,
+    #47caff 50%
+  );
+  --vp-home-hero-image-filter: blur(44px);
 }
 
-body::-webkit-scrollbar {
-  display: none !important;
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
 }
-/* a标签取消下划线 */
-a {
-  text-decoration: none !important;
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+.VPHero .VPImage {
+  filter: drop-shadow(-2px 4px 6px rgba(0, 0, 0, 0.2));
+  padding: 18px;
+}
+
+/* used in reference/default-theme-search */
+img[src='/search.png'] {
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
