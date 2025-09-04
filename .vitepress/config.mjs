@@ -14,8 +14,7 @@ export default defineConfig({
   description: "收集一些日常使用的网站资源和网站社区", // 描述
   lang: "zh-CN", // 设置语言
   head, // 设置favicon
-  outDir: "dist", // 打包目录
-   srcDir: 'docs', // 文档目录
+  srcDir: 'docs', // 文档目录
 
   lastUpdated: true, // 开启最后更新时间
   cleanUrls: true, // 开启无后缀的url
@@ -26,11 +25,6 @@ export default defineConfig({
     image: {
       lazyLoading: true,
     },
-  },
-
-  // 指定public目录路径 
-  vite: {
-    publicDir: "../public"
   },
 
   themeConfig: {
@@ -55,9 +49,6 @@ export default defineConfig({
         timeStyle: 'short', // medium
       },
     },
-
-    /* Algolia DocSearch 配置 */
-    // algolia,
     docFooter: {
       prev: '上一篇',
       next: '下一篇',
@@ -67,10 +58,6 @@ export default defineConfig({
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
-    /* 生成站点地图 */
-    // sitemap: {
-    //   hostname: 'https://example.com',
-    // },
     footer,
   }
 })
