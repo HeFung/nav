@@ -1,3 +1,3 @@
 module.exports = [
-  { icon: "github", link: "https://github.com/huangpw/vitepress-navigation-resource" },
+  { icon: "github", link: "https://github.com/hefung/nav" },
 ];
