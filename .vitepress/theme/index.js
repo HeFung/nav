@@ -1,4 +1,4 @@
-import './custom.css';
+import './vars.css';
 import 'vitepress-plugin-back-to-top/dist/style.css';
 
 import vitepressBackToTop from 'vitepress-plugin-back-to-top';
