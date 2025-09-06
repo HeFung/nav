@@ -1,6 +1,6 @@
-import './vars.css';
+import './styles/index.scss'
 import 'vitepress-plugin-back-to-top/dist/style.css';
-
+import type { Theme } from 'vitepress'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top';
 import DefaultTheme from 'vitepress/theme';
 
@@ -19,4 +19,4 @@ export default {
 
         app.provide('DEV', process.env.NODE_ENV === 'development')
     },
-}
+} satisfies Theme

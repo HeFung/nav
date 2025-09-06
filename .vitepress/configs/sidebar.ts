@@ -1,4 +1,6 @@
-module.exports = {
+import type { DefaultTheme } from 'vitepress'
+
+export const sidebar: DefaultTheme.Config['sidebar'] =  {
   '/coding/common-framework/': [
     {
       text: 'CSS生态',

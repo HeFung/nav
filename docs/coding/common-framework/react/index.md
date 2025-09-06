@@ -7,7 +7,7 @@ outline: [2, 3, 4]
 
 import { NAV_DATA } from './data'
 </script>
-<!-- <style src="./index.scss"></style> -->
+<style src="./index.scss"></style> 
 
 # React全家桶
 

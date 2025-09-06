@@ -8,7 +8,6 @@ outline: [2, 3, 4]
 
 import { NAV_DATA } from './data'
 </script>
-<!-- <style src="./index.scss"></style> -->
 
 # 音乐剪辑
 
