@@ -56,4 +56,10 @@ import { FRIEND_DATA } from './home/friend-data';
 <ClientOnly>
   <MNavLinks  v-for="{ title, items } in FRIEND_DATA" :title="title" :items="items" />
 </ClientOnly>
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #0078D4 45%, #41d1ff);
+}
+</style>
 
