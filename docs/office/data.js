@@ -1,4 +1,17 @@
 export const NAV_DATA = [
+    {
+    title: '电脑资源',
+    items: [
+      {
+        icon: 'https://www.officetool.plus/favicon.ico',
+        title: 'Office Tool Plus',
+        desc: '一个强大且实用的 Office 部署工具',
+        link: 'https://www.officetool.plus/zh-cn/',
+        badge: '官网',
+      },
+      
+    ]
+  },
   {
     title: '在线文档',
     items: [
