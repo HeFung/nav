@@ -2,20 +2,20 @@
 layout: home
 
 hero:
-  name: 导航-资源库
-  text: 收集一些日常使用的网站资源和网站社区
+  name: 导航资源库
+  text: 收集网站资源社区
   tagline: 书山有路勤为径，学海无涯苦作舟。
   image:
     src: /logo.png
     alt: 前端导航网站
   actions:
-    - text: 开始阅读
-      link: /front/
-    - text: 前端资源
-      link: https://notes.fe-mm.com
+    - text: 影视点播
+      link: https://vodtv.cn
+    - text: 打赏赞助
+      link: https://hefung.github.io/donate
       theme: alt
     - text: 编程笔记
-      link: https://netease-music.fe-mm.com
+      link: https://be.vodtv.cn/
       theme: alt
 features:
   - icon: 📖
