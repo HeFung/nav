@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: 导航资源库
-  text: 收集网站资源社区
+  text: 收集网站资源
   tagline: 书山有路勤为径，学海无涯苦作舟。
   image:
     src: /logo.png
