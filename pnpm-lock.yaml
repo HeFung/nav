@@ -815,8 +815,8 @@ packages:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
 
-  focus-trap@7.6.6:
-    resolution: {integrity: sha512-v/Z8bvMCajtx4mEXmOo7QEsIzlIOqRXTIwgUfsFOF9gEsespdbD0AkPIka1bSXZ8Y8oZ+2IVDQZePkTfEHZl7Q==}
+  focus-trap@7.7.0:
+    resolution: {integrity: sha512-DJJDHpEgoSbP8ZE1MNeU2IzCpfFyFdNZZRilqmfH2XiQsPK6PtD8AfJqWzEBudUQB2yHwZc5iq54rjTaGQ+ljw==}
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -1799,13 +1799,13 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@vueuse/integrations@12.8.2(focus-trap@7.6.6)(typescript@4.9.5)':
+  '@vueuse/integrations@12.8.2(focus-trap@7.7.0)(typescript@4.9.5)':
     dependencies:
       '@vueuse/core': 12.8.2(typescript@4.9.5)
       '@vueuse/shared': 12.8.2(typescript@4.9.5)
       vue: 3.5.26(typescript@4.9.5)
     optionalDependencies:
-      focus-trap: 7.6.6
+      focus-trap: 7.7.0
     transitivePeerDependencies:
       - typescript
 
@@ -1957,7 +1957,7 @@ snapshots:
     dependencies:
       to-regex-range: 5.0.1
 
-  focus-trap@7.6.6:
+  focus-trap@7.7.0:
     dependencies:
       tabbable: 6.3.0
 
@@ -2404,8 +2404,8 @@ snapshots:
       '@vue/devtools-api': 7.7.9
       '@vue/shared': 3.5.26
       '@vueuse/core': 12.8.2(typescript@4.9.5)
-      '@vueuse/integrations': 12.8.2(focus-trap@7.6.6)(typescript@4.9.5)
-      focus-trap: 7.6.6
+      '@vueuse/integrations': 12.8.2(focus-trap@7.7.0)(typescript@4.9.5)
+      focus-trap: 7.7.0
       mark.js: 8.11.1
       minisearch: 7.2.0
       shiki: 2.5.0
