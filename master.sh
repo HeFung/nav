@@ -15,10 +15,10 @@ cd ./ #docs/.vitepress/dist
 # 创建git的本地仓库，提交修改
 git init
 git add -A
-git commit -m 'huangpw'
+git commit -m 'hefung'
 
 # 如果发布到 https://<USERNAME>.github.io  USERNAME=你的用户名 
-git push -f https://github.com/huangpw/vitepress-navigation-resource.git master
+git push -f https://github.com/hefung/nav.git master
 
 # 返回进入此目录之前所在目录 
 # cd -

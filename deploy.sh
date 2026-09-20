@@ -24,7 +24,7 @@ git commit -m 'deploy'
 # git push -f https://github.com/huangpw/react-resource-vitepress.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>  REPO=github上的项目
-git push -f https://github.com/huangpw/vitepress-navigation-resource.git master:gh-pages
+git push -f https://github.com/hefung/nav.git master:gh-pages
 
 # 返回进入此目录之前所在目录 
 cd -

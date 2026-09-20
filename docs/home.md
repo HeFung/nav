@@ -1,5 +1,22 @@
 ---
 layout: home
+
+hero:
+  name: 导航资源库
+  text: 收集网站资源
+  tagline: 书山有路勤为径，学海无涯苦作舟。
+  image:
+    src: /logo.png
+    alt: 前端导航网站
+  actions:
+    - text: 影视点播
+      link: https://vodtv.cn
+    - text: 打赏赞助
+      link: https://hefung.github.io/donate
+      theme: alt
+    - text: 编程笔记
+      link: https://be.vodtv.cn/
+      theme: alt
 features:
   - icon: 📖
     title: 编程物语
@@ -33,16 +50,16 @@ features:
 ---
 
 <script setup>
-// import MNavLinks from '../../components/MNavLinks.vue'
-
-import { FRIEND_DATA } from './home/friend-data'
+import { FRIEND_DATA } from './home/friend-data';
 </script>
-<style src="./home/index.scss"></style>
 
-<MNavLinks v-for="{title, items} in FRIEND_DATA" :title="title" :items="items"/>
+<ClientOnly>
+  <MNavLinks  v-for="{ title, items } in FRIEND_DATA" :title="title" :items="items" />
+</ClientOnly>
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #0078D4 45%, #41d1ff);
+}
+</style>
 
-<br />
-
-::: tip
-该导航由 [hefung](https://github.com/hefung/) 开发，如有引用、借鉴的请保留版权声明：<https://github.com/hefung/nav>
-:::

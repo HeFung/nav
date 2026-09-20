@@ -5,11 +5,11 @@ import { head, nav, sidebar } from './configs'
 const APP_BASE_PATH = basename(process.env.GITHUB_REPOSITORY || '')
 
 export default defineConfig({
-  base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
   title: "导航-资源库", // 标题
   description: "收集一些日常使用的网站资源和网站社区", // 描述
   lang: "zh-CN", // 设置语言
   head, // 设置favicon
+  base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
   srcDir: 'docs', // 文档目录
 
   lastUpdated: true, // 开启最后更新时间
